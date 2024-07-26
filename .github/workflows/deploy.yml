@@ -17,7 +17,8 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: ${{ secrets.SSH_PORT }}
           script: |
-            ssh -i ~/id_rsaalain mome@192.168.0.98 'ls'
-            ssh -i ~/id_rsaalain mome@192.168.0.98 'cd galileo-eureka'
-            ssh -i ~/id_rsaalain mome@192.168.0.98 'ls'
+            ssh -i ~/id_rsaalain mome@192.168.0.98 '
+            ls &&
+            cd galileo-eureka &&
+            ls'
             exit
