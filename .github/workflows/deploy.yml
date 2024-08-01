@@ -18,6 +18,7 @@ jobs:
           port: ${{ secrets.SSH_PORT }}
           script: |
             ssh -i ~/id_rsaalain mome@192.168.0.98 '
-            cd ~/usr/share/maven/bin &&
-            ls'
+            cd /opt/maven/bin &&
+            ls &&
+            export PATH=/opt/maven/bin:$PATH && mvn --version'
             exit
