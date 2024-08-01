@@ -18,7 +18,7 @@ jobs:
           port: ${{ secrets.SSH_PORT }}
           script: |
             ssh -i ~/id_rsaalain mome@192.168.0.98 '
-            cd /opt/maven/bin &&
+            cd galileo-eureka/config-server/code/servicio-config-server &&
             ls &&
-            export PATH=/opt/maven/bin:$PATH && mvn --version'
+            export PATH=/opt/maven/bin:$PATH && mvn clean install -DskipTests'
             exit
