@@ -24,5 +24,7 @@ jobs:
             cd config-server && 
             ls && 
             cd code && 
+            ls && 
+            cd servicio-config-server && 
             ls'
             exit
