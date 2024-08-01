@@ -27,5 +27,5 @@ jobs:
             ls && 
             cd servicio-config-server && 
             ls &&
-            mvn clean install -DskipTests'
+            mvn --version'
             exit
