@@ -20,5 +20,7 @@ jobs:
             ssh -i ~/id_rsaalain mome@192.168.0.98 '
             ls &&
             cd galileo-eureka &&
-            ls && cd config-server && ls'
+            ls && 
+            cd config-server && 
+            ls'
             exit
