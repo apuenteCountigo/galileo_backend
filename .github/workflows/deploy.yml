@@ -18,14 +18,6 @@ jobs:
           port: ${{ secrets.SSH_PORT }}
           script: |
             ssh -i ~/id_rsaalain mome@192.168.0.98 '
-            ls &&
-            cd galileo-eureka &&
-            ls && 
-            cd config-server && 
-            ls && 
-            cd code && 
-            ls && 
-            cd servicio-config-server && 
-            ls &&
-            bash ./ejecutar_mvn.sh'
+            cd /usr/share/maven/bin &&
+            ls'
             exit
