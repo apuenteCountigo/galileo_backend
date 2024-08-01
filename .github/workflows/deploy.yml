@@ -22,5 +22,7 @@ jobs:
             cd galileo-eureka &&
             ls && 
             cd config-server && 
+            ls && 
+            cd code && 
             ls'
             exit
