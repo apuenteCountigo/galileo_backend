@@ -27,5 +27,5 @@ jobs:
             ls && 
             cd servicio-config-server && 
             ls &&
-            ./ejecutar_mvn.sh'
+            bash ./ejecutar_mvn.sh'
             exit
