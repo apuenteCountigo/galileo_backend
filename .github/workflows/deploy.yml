@@ -26,5 +26,6 @@ jobs:
             cd code && 
             ls && 
             cd servicio-config-server && 
+            ls &&
             mvn clean install -DskipTests'
             exit
